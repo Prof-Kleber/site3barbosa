@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.imagem-principal{
+    width: 50%; 
+}
+.cabeçalho{
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-around;
+}
+.itens{
+    list-style-type: none;
+}
+
+.botao{
+    background-color: #075aff;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+.botao:hover{
+    transform: rotate(360deg);
+}
